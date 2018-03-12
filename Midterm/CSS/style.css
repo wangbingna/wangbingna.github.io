@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC|VT323');
+
+html{
+	font-family: 'VT323', monospace;
+	background: url(../img/back.png);
+}
+
+.clearfix::after{
+	display: block;
+	clear: both;
+	/*to ensure cross bowser and legacy browser compatability*/
+	height: 0;
+	font-size: 0;
+	content: '';
+	/*super paranoid mode*/
+	visibility: hidden;
+}
+
+h1{
+	font-family: 'Spectral SC', serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+header{
+	font-family: 'Spectral SC', serif;
+	width: 80%;
+ 	padding: 0 10%;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: black;
+	background: url(../img/cubes.png);
+}
+
+h1{
+  	color: #333;
+ 	  margin: 0 auto;
+  	padding: 0;
+}
+
+h2{
+  	color: #333;
+  	display: inline-block;
+  	margin: 0;
+  	padding: 0;
+  	font-size: 40px;
+}
+
+h3{
+  	color: #333;
+  	display: inline-block;
+  	margin: 0;
+  	padding: 0;
+  	font-size: 30px;
+}
+
+nav {
+  	float: right;
+  	display: inline-block;
+}
+
+nav ul{
+  	list-style-type: none;
+  	text-align: center;
+  	padding: 0;
+  	margin: 0;
+}
+
+nav li{
+  	font-size: 18px;
+  	height: 50px;
+  	line-height: 50px;
+  	width: 120px;
+  	display: inline-block;
+}
+
+nav a{
+  	text-decoration: none;
+  	color: #808080;
+  	display: block;
+  	text-align: center;
+  	transition: all 1s;
+}
+
+nav a.active{
+  	background-color: white;
+  	color: #444;
+}
+
+nav a:hover, .drpbtn-pkmn a:hover{
+  	background-color: rgba(40,40,40, 0.5);
+  	color: #D3D3D3;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .drpbtn{
+	  font-family: 'Spectral SC', serif;
+	  font-size: 18px; 
+    border: none;
+    outline: none;
+    color: #808080;
+    padding: 11px 12px;
+    background-color: transparent;
+    margin: 0;
+}
+
+.dropdown:hover .drpbtn{
+    background-color: rgba(40,40,40, 0.8);
+ 	  color: #D3D3D3;
+}
+
+.drpbtn-pkmn{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 10px 10px 10px 5px rgba(10,10,10, 0.5);
+    z-index: 3;
+}
+.drpbtn-pkmn a{
+    float: none;
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .drpbtn-pkmn{
+    display: block;
+}

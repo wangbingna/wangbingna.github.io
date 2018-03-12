@@ -1,0 +1,70 @@
+article h3{
+    float: left;
+}
+
+aside{
+  	width: 250px;
+  	display: block;
+  	min-height: 200px;
+  	background-color: black;
+  	background: url(../img/cubes.png);
+
+  	float: right;
+  	position: -webkit-sticky;
+  	position: sticky;
+  	top: 10px;
+}
+
+aside ul{
+  	list-style-type: none;
+  	text-align-center;
+  	padding: 0;
+  	margin: 0;
+}
+
+aside li{
+  	font-size: 18px;
+  	height: 50px;
+  	line-height: 50px;
+  	width: 250px;
+  	display: inline-block;
+}
+
+aside a{
+  	text-decoration: none;
+  	color: #808080;
+  	display: block;
+  	text-align: center;
+  	transition: all 1s;
+}
+
+aside a.active{
+  	background-color: white;
+  	color: #444;
+}
+
+aside a:hover{
+  	background-color: rgba(40,40,40, 0.5);
+  	color: #D3D3D3;
+}
+
+figure{
+    margin-top:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.rel-img{
+	  width: 300px;
+	  height: 100px;
+	  word-wrap: break-word;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: stretch;
+    align-content: center;
+}
