@@ -1,7 +1,7 @@
-## midterm project:
+## final project:
 ### Website
-https://wangbingna.github.io/about.html
+https://wangbingna.github.io/Final/about.html
 ### Blog Post:
-http://sites.bxmc.poly.edu/~brianajones/WebDev/index.php/2018/03/12/midterm-process/
+http://sites.bxmc.poly.edu/~brianajones/WebDev/index.php/2018/04/30/final-project/
 ### Presentation:
-https://docs.google.com/presentation/d/1ua5T_RLPlPo4zoyPLG_DZ3ysiM5fTV_xCp9v7WsgII8/edit?usp=sharing
+https://docs.google.com/presentation/d/1XskiE70qx9pN6pP24tclmoEBSP_agcSFKz4DzPDsMzw/edit?usp=sharing
