@@ -1,6 +1,6 @@
 ## midterm project:
 ### Website
-https://wangbingna.github.io/about.html
+https://wangbingna.github.io/Midterm/about.html
 ### Blog Post:
 http://sites.bxmc.poly.edu/~brianajones/WebDev/index.php/2018/03/12/midterm-process/
 ### Presentation:
