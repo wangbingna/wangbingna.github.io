@@ -1,7 +1,5 @@
-## final project:
-### Website
+## Website (Portfolio)
+### Legendex Website [Link]
 https://wangbingna.github.io/Final/about.html
-### Blog Post:
-http://sites.bxmc.poly.edu/~brianajones/WebDev/index.php/2018/04/30/final-project/
-### Presentation:
-https://docs.google.com/presentation/d/1XskiE70qx9pN6pP24tclmoEBSP_agcSFKz4DzPDsMzw/edit?usp=sharing
+
+A website created by Briana Jones. Coded using html: it is a Pokemon-themed website that uses functions like Draggable and containers. Was created as a part of class at NYU's IDM (Creative Coding).
